@@ -51,6 +51,9 @@ $query = $queryBuilder
     ->addField($postField)
     ->build();
 
+// Get the query string
+$query = $queryBuilder->getQuery();
+
 echo $query;
 ```
 
