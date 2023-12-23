@@ -39,6 +39,14 @@ class GraphQLQueryBuilder
 
         return $query;
     }
+
+    /**
+     * @return string
+     */
+    public function getQuery()
+    {
+        return $this->build();
+    }
 }
 
 ?>

@@ -24,5 +24,7 @@ $query = $queryBuilder
     ->addField($postField)
     ->build();
 
-// Print the query
+// Get the query string
+$query = $queryBuilder->getQuery();
+
 echo $query;
