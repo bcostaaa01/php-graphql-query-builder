@@ -13,7 +13,7 @@ A flexible and modular GraphQL query builder for PHP projects. Easily construct 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/graphql-query-builder-php.git
+   git clone https://github.com/bcostaaa01/graphql-query-builder-php.git
    ```
    
 2. Include the required files in your PHP project:
